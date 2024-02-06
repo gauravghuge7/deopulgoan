@@ -7,6 +7,17 @@ body {
       margin: 0;
 }
 
+
+/*  this is the for decorating the content  */
+
+li {
+      text-decoration: none;
+}
+
+a {
+      text-decoration: none;
+}
+
 .head1 {
       padding-top: 10px;
       margin-top: 5px;
@@ -45,29 +56,29 @@ body {
 
 #photo1 {
       
-      height: 700px;
-      width: 700px;
+      height: 500px;
+      width: 500px;
 }
 
 .photo #photo2 {
       
-      height: 700px;
-      width: 700px;
+      height: 500px;
+      width: 500px;
       margin-left: 200px;
      
 }
 
 .photo #photo3 {
       
-      height: 700px;
-      width: 700px;
+      height: 500px;
+      width: 500px;
       margin-left: 400px;
 
 }
 
 .photo #photo4 {
-      height: 700px;
-      width: 700px;
+      height: 500px;
+      width: 500px;
       margin-left: 600px;
       
 }
