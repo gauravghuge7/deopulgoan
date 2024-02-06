@@ -19,44 +19,90 @@ a {
       text-decoration: none;
 }
 
-.head1 {
+hr {
+      color: black;
+      size: 10px;
+
+      border: 3px solid black;
+}
+
+#para {
+      font-size: 30px;
+}
+
+
+
+/*  this is the end of the design  */
+
+/*  this is the start main designing */
+
+nav {
      
      
       background-color: rgb(247, 215, 172);
       padding-top: 20px;
       
+      
+}
+
+
+ nav {
+
       display: flex;
-      align-items: center;
       justify-content: space-around;
 
-}
-
-.head1 p {
-      font-size: 70px;
-      margin-left: 100px;
-}
-
-.head ul {
-      display: flex;
-      text-align: center;
-      flex-direction: column;
       
 
 }
 
+
+ nav p {
+      font-size: 70px;
+      
+}
+
+nav ul {
+      display: flex;
+      gap: 30px;
+      font-family: "Poppins", sans-serif;
+}
+
+#about {
+      font-size: 25px;
+      font-weight: 300;
+      color: black;
+      background-color: rgb(180, 224, 224);
+      border-radius: 8px;
+      padding: 5px;
+      border: 1px solid black;
+}
+
+#contact {
+      font-size: 25px;
+      font-weight: 300;
+      color: black;
+      background-color: rgb(180, 224, 224);
+      border-radius: 8px;
+      padding: 5px;
+      border: 1px solid black;
+}
+
+
+
+/*  this is the first background setup  */
 .nature {
 
-      height: 800px;
+      height: 1500px;
       
-      background-image: url(./assets/demo\ nature.jpg);
+      background-image: url(./assets/shade.png);
       background-repeat: no-repeat;
-      background-size: 1530px 800px;
+      background-size: 1530px 1500px;
       
 }
 
 .nature p {
       margin-left: 100px;
-      font-size: 50px;
+      font-size: 70px;
       color: orangered;
       font-weight: 600;
 }
@@ -69,7 +115,7 @@ a {
 #photo1 {
       
       height: 500px;
-      width: 500px;
+      
 }
 
 .photo #photo2 {
