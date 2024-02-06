@@ -1,0 +1,81 @@
+* {
+      margin-top: 0;
+      box-sizing: content-box;
+}
+
+body {
+      margin: 0;
+}
+
+.head1 {
+      padding-top: 10px;
+      margin-top: 5px;
+      height: 90px;
+      background-color: rgb(247, 215, 172);
+      border-top: 5px;
+      
+}
+
+.head1 p {
+      font-size: 70px;
+      margin-left: 100px;
+}
+
+.nature {
+
+      height: 800px;
+      
+      background-image: url(../assets/demo\ nature.jpg);
+      background-repeat: no-repeat;
+      background-size: 1530px 800px;
+      
+}
+
+.nature p {
+      margin-left: 100px;
+      font-size: 50px;
+      color: orangered;
+      font-weight: 600;
+}
+
+
+
+
+
+
+#photo1 {
+      
+      height: 700px;
+      width: 700px;
+}
+
+.photo #photo2 {
+      
+      height: 700px;
+      width: 700px;
+      margin-left: 200px;
+     
+}
+
+.photo #photo3 {
+      
+      height: 700px;
+      width: 700px;
+      margin-left: 400px;
+
+}
+
+.photo #photo4 {
+      height: 700px;
+      width: 700px;
+      margin-left: 600px;
+      
+}
+
+
+footer p {
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+}
+
+
