@@ -11,7 +11,8 @@ body {
 /*  this is the for decorating the content  */
 
 li {
-      text-decoration: none;
+      list-style: none;
+      cursor: pointer;
 }
 
 a {
@@ -19,17 +20,28 @@ a {
 }
 
 .head1 {
-      padding-top: 10px;
-      margin-top: 5px;
-      height: 90px;
+     
+     
       background-color: rgb(247, 215, 172);
-      border-top: 5px;
+      padding-top: 20px;
       
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
 }
 
 .head1 p {
       font-size: 70px;
       margin-left: 100px;
+}
+
+.head ul {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      
+
 }
 
 .nature {
