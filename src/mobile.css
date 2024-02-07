@@ -1,0 +1,182 @@
+/*
+    this is the for only mobile responsive design
+*/
+
+@media (max-width: 600px) {
+
+      /* full web page css body and html tag */
+      * {
+            margin-top: 0;
+            box-sizing: content-box;
+      }
+      
+      body {
+            margin: 0;
+      }
+
+      
+      /*  this is the for decorating the content  */
+      
+      li {
+            list-style: none;
+            cursor: pointer;
+      }
+      
+      a {
+            text-decoration: none;
+      }
+      
+
+      /* navbar css  */ 
+      nav {
+     
+     
+            background-color: rgb(247, 215, 172);
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-around;
+      
+      }
+      
+      
+      
+       nav p {
+            font-size: 70px;
+            
+      }
+      
+      nav ul {
+            display: flex;
+            gap: 30px;
+            font-family: "Poppins", sans-serif;
+      }
+
+      /*  this is the background css */
+
+      .nature {
+
+            height: 500px;
+            
+            background-image: url(../assets/busstand.png);
+            background-repeat: no-repeat;
+            background-size: 500px 500px;
+            
+      }
+      
+      .nature p {
+            margin-left: 100px;
+            font-size: 40px;
+            color: orangered;
+            font-weight: 600;
+      }
+
+
+
+
+      
+      /* special decoration css */
+
+      hr {
+            color: black;
+            size: 10px;
+      
+            border: 3px solid black;
+      }
+      
+      #para {
+            font-size: 30px;
+      }
+      
+
+      /*  for first section tag & class navin */
+
+      .navin {
+            display: flex;
+      }
+
+
+
+
+      #navin1 {
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;
+            background-color: rgb(196, 223, 223);
+            padding: 10px;
+            width: 100px;
+            align-items: center;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* for seePhotos css  */
+
+      #watch-photos {
+            display: flex;
+            text-align: center;
+            align-items: center;
+      }
+
+
+
+
+
+
+      
+
+
+      
+      /*  photos og ganpati design  */
+
+      #photo1 {
+      
+        height: 400px;
+        width: 400px;    
+      }
+  
+      .photo #photo2 {
+        
+        height: 400px;
+        width: 400px;
+               
+      }
+  
+      .photo #photo3 {
+        
+        height: 400px;
+        width: 400px;
+        
+  
+      }
+  
+      .photo #photo4 {
+        height: 400px;
+        width: 400px;
+            
+      }
+
+      /* footer designing  */
+
+      footer p {
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+      }
+
+} 
