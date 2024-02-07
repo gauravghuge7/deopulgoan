@@ -1,0 +1,21 @@
+
+
+@media (min-width: 600px) {
+
+
+
+
+
+    .seePhotos {
+
+        border: 2px solid black;
+        background-color: rgb(221, 197, 167);
+        
+    }
+
+    #video1 {
+        rotate: 90deg right;
+        height: 500px;
+        width: 500px;
+    }
+}
