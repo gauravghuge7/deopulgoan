@@ -57,7 +57,7 @@
 
             height: 500px;
             
-            background-image: url(../assets/busstand.png);
+            background-image: url(../assets/images/busstand.png);
             background-repeat: no-repeat;
             background-size: 500px 500px;
             
@@ -92,9 +92,27 @@
 
       .navin {
             display: flex;
+            justify-content: space-around;
       }
 
 
+      .for-navin1 {
+            border: 2px solid burlywood;
+            height: 300px;
+            width: 300px;
+      }
+
+
+      .for-navin1 {
+            display: flex;
+            justify-content: center;
+      }
+
+      #for-navin2-1 {
+            height: 300px;
+            width: 300px;
+            border-radius: 200px;
+      } 
 
 
       #navin1 {
@@ -104,11 +122,24 @@
             background-color: rgb(196, 223, 223);
             padding: 10px;
             width: 100px;
-            align-items: center;
+            
+            
       }
 
 
+      /*  social media css */
 
+      .media1 ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+      }
+
+      #insta {
+            height: 30px;
+            width: 30px;
+            padding: 0;
+      }
 
 
 
@@ -147,28 +178,29 @@
 
       #photo1 {
       
-        height: 400px;
-        width: 400px;    
+        height: 250px;
+        width: 250px;    
       }
   
       .photo #photo2 {
         
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
+        border-radius: 200px;
                
       }
   
       .photo #photo3 {
         
-        height: 400px;
-        width: 400px;
+        height: 250px;
+        width: 250px;
         
   
       }
   
       .photo #photo4 {
-        height: 400px;
-        width: 400px;
+        height: 250px;
+        width: 250px;
             
       }
 
@@ -178,5 +210,7 @@
             font-family: "Poppins", sans-serif;
             text-align: center;
       }
+
+
 
 } 
