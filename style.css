@@ -41,19 +41,11 @@ nav {
      
       background-color: rgb(247, 215, 172);
       padding-top: 20px;
-      
-      
-}
-
-
- nav {
-
       display: flex;
       justify-content: space-around;
 
-      
-
 }
+
 
 
  nav p {
@@ -110,36 +102,39 @@ nav ul {
 
 
 
-
-
-#photo1 {
+@media (min-width: 600){
+      #photo1 {
       
-      height: 500px;
+            height: 500px;
+            
+      }
       
+      .photo #photo2 {
+            
+            height: 500px;
+            width: 500px;
+            margin-left: 200px;
+           
+      }
+      
+      .photo #photo3 {
+            
+            height: 500px;
+            width: 500px;
+            margin-left: 400px;
+      
+      }
+      
+      .photo #photo4 {
+            height: 500px;
+            width: 500px;
+            margin-left: 600px;
+            
+      }
+      
+
 }
 
-.photo #photo2 {
-      
-      height: 500px;
-      width: 500px;
-      margin-left: 200px;
-     
-}
-
-.photo #photo3 {
-      
-      height: 500px;
-      width: 500px;
-      margin-left: 400px;
-
-}
-
-.photo #photo4 {
-      height: 500px;
-      width: 500px;
-      margin-left: 600px;
-      
-}
 
 
 footer p {
