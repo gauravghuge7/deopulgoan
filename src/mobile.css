@@ -238,7 +238,7 @@
       }
   
       .photo #photo2 {
-        
+        margin-left: 60px;
         height: 300px;
         width: 300px;
         border-radius: 200px;
@@ -246,7 +246,7 @@
       }
   
       .photo #photo3 {
-        
+        margin-left: 90px;
         height: 250px;
         width: 250px;
         
@@ -257,6 +257,22 @@
         height: 250px;
         width: 250px;
             
+      }
+
+
+
+      /* animation  */
+
+      .anim {
+            height: 200px;
+            background-image: linear-gradient(yellow, red);
+            transition: width 3s, height 4s;
+            animation-duration: 20s;
+      }
+
+      .anim:hover {
+            height: 500px;
+            width: 50px;
       }
 
       /* footer designing  */
