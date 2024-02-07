@@ -47,7 +47,8 @@
       
        nav p {
             font-size: 70px;
-            
+            height: 40px;
+            padding-top: 10px;
       }
       
       nav ul {
@@ -70,7 +71,7 @@
       
       .nature p {
             margin-left: 100px;
-            font-size: 40px;
+            font-size: 20px;
             color: orangered;
             font-weight: 600;
       }
@@ -102,16 +103,14 @@
 
 
       .for-navin1 {
-            border: 2px solid burlywood;
-            height: 300px;
-            width: 300px;
-      }
-
-
-      .for-navin1 {
+            border: 3px solid rgb(10, 7, 3);
+            height: 500px;
+            width: 500px;
+            padding-left: 0;
             display: flex;
             justify-content: center;
       }
+
 
       #for-navin2-1 {
             height: 300px;
@@ -150,21 +149,12 @@
             border: 1px solid black;
       }
 
-
       #media-title {
             margin-left: 100px;
             font-size: 30px;
             font-weight: 600;
 
       }
-
-
-
-
-
-
-
-
 
 
 
@@ -221,6 +211,13 @@
       }
       
 
+      /* deopul overview css */
+
+      #deopul-add-title {
+            margin-left: 100px;
+            font-size: 30px;
+            font-weight: 600;
+      }
 
       /* map css  */
 
