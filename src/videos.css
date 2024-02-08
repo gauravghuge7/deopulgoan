@@ -13,9 +13,13 @@
         
     }
 
-    #video1 {
-        rotate: 90deg right;
-        height: 500px;
-        width: 500px;
+  
+    #status {
+        text-align: center;
+        display: flex;
+        font-size: 35px;
+        background-color: antiquewhite;
+        border: 2px solid black;
+        border-radius: 8px;
     }
 }

@@ -6,7 +6,7 @@
 
       /* full web page css body and html tag */
       * {
-            
+            font-family: "Poppins", sans-serif;
            padding-left: 1px;
            padding-right: 1px;
             box-sizing: content-box;
